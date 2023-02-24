@@ -1,0 +1,25 @@
+{
+    "name": "tailwind-color-shades-js",
+    "version": "1.0.0-beta",
+    "description": "A simple JavaScript library to generate color shades for TailwindCSS color objects. To be used in your TailwindCSS configuration file (tailwind.config.js).",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo 'Error: no test specified' && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/titonova/tailwind-color-shades-js.git"
+    },
+    "keywords": [
+        "color shades",
+        "tailwindcss",
+        "javascript",
+        "library"
+    ],
+    "author": "Tito Amoo <titoamoo4@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "chroma-js": "^2.2.0",
+        "color": "^4.2.3"
+    }
+}
