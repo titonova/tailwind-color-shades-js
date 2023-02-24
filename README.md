@@ -41,6 +41,27 @@ console.log(shades);
 // ['#E3F2FD', '#BBDEFB', '#64B5F6', '#2196F3', '#1E88E5', '#1976D2']
 ````
 
+And then you can add teh color shades to you tailwind.config.js:
+
+```js
+
+module.exports = {
+    content: [
+        ...
+    ],
+    presets: [
+        .....
+    ],
+
+    theme: {
+        extend: {
+
+          ....
+            colors: shades,
+        },
+    },
+```
+
 ### Contributing
 Contributions are welcome! 
 
