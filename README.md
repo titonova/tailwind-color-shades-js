@@ -3,7 +3,7 @@ tailwind-color-shades-js is a simple JavaScript library for generating color sha
 ## Installation
 The library can be installed via NPM. Run the following command in your terminal:
 
-```
+```bash
 npm install tailwind-color-shades-js
 ```
 
@@ -12,7 +12,7 @@ The tailwind-color-shades-js library provides a single ColorShades class with a 
 
 Importing the Library
 
-```
+```js
 import ColorShades from 'tailwind-color-shades-js';
 ```
 
@@ -20,7 +20,7 @@ import ColorShades from 'tailwind-color-shades-js';
 The generateColorShades method generates an array of darker and lighter shades of the input color. The output shades range from 50 (lightest) to 900 (darkest).
 
 
-```
+```js
 const colorShades = new ColorShades();
 
 const shades = colorShades.generateColorShades('red');
